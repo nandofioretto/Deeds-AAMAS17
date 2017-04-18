@@ -1,0 +1,5 @@
+===========================
+IEEE 30 bus simulator.
+===========================
+
+H=12 ( time intervals of 5 minutes)

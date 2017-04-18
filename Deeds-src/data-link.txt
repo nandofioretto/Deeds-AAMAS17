@@ -1,0 +1,33 @@
+WSCC 9-Bus System
+- http://publish.illinois.edu/smartergrid/wscc-9-bus-system/
+
+
+IEEE 14-Bus System
+- http://publish.illinois.edu/smartergrid/ieee-14-bus-system/
+
+
+IEEE 24-Bus System
+- http://publish.illinois.edu/smartergrid/ieee-24-bus-system/
+
+
+IEEE 30-Bus System
+- http://publish.illinois.edu/smartergrid/ieee-30-bus-system/
+- http://shodhganga.inflibnet.ac.in/bitstream/10603/1221/18/18_appendix.pdf
+- http://onlinelibrary.wiley.com/store/10.1002/0471462926.app3/asset/app3.pdf;jsessionid=E162D82968DBD71D45FDC9BE502CA2F2.f03t01?v=1&t=ijowk61c&s=6fc0534659f64e7171880ed80ed2c9dd8ea4e16f
+
+
+IEEE 39-Bus System
+- http://publish.illinois.edu/smartergrid/ieee-39-bus-system/
+
+
+IEEE 57-Bus System
+- http://publish.illinois.edu/smartergrid/ieee-57-bus-system/
+
+
+IEEE 62 Bus system:
+- http://shodhganga.inflibnet.ac.in/bitstream/10603/1221/18/18_appendix.pdf
+
+
+IEEE 118 Bus system:
+- http://publish.illinois.edu/smartergrid/ieee-118-bus-system/
+http://www.al-roomi.org/power-flow/118-bus-system

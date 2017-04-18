@@ -1,0 +1,95 @@
+// IEEE-30bus associated to file: ieee30cdf.txt
+// Column 1: Bus ID (I)
+// Column 2: Bus Type (G|L)
+// Column 3: is slack-bus (0|1)
+// Column 4: is reference-bus (0|1)
+// Column 5: is load dispatchable (0|1)
+//   For A Generator G:
+//   Column  6: min Generator p_g^\min [MW] (F)
+//   Column  7: max Generator p_g^\max [MW] (F)
+//   Column  8: discretization interval [MW] (F) // e.g, 0.1
+//   Column  9: Ramp constraint Delta_g [MW] (F)
+//   Column  10: Number of POZs Npoz (I)
+//   Columns (11)..(11+Npoz*2): POZ intervals of min max, in ascending order (F)
+//   For A Load L:
+//   Column   6: min Load p_l^\min [MW] (F)
+//   Column   7: max Load p_l^\max [MW] (F)
+//   Column   9: discretization interval [MW] (F) // e.g, 0.1
+BUS DATA FOLLOWS                            14 ITEMS
+1   G   1   1   1   50  200  1  20  0
+2   G   0   0   1   20   80  1  10  0
+5   G   0   0   1   15   50  1  10  0
+8   G   0   0   1   10   35  1   5  0
+11  G   0   0   1   10   30  1   5  0
+13  G   0   0   1   12   40  1   5  0
+3   L   0   0   0   0   10  1
+4   L   0   0   1   22  44  1
+6   L   0   0   0   0   10  1
+7   L   0   0   1   23.51 47.02  1
+9   L   0   0   0   0   10  1
+10  L   0   0   1   20  40  1
+12  L   0   0   1   20  40  1
+14  L   0   0   0   0   10  1
+15  L   0   0   1   16.5 33  1
+16  L   0   0   0   0   10  1
+17  L   0   0   0   0   10  1
+18  L   0   0   0   0   10  1
+19  L   0   0   0   0   10  1
+20  L   0   0   0   0   10  1
+21  L   0   0   0   0   20  1
+22  L   0   0   0   0   10  1
+23  L   0   0   0   0   10  1
+24  L   0   0   0   0   10  1
+25  L   0   0   0   0   10  1
+26  L   0   0   0   0   10  1
+27  L   0   0   0   0   10  1
+28  L   0   0   0   0   10  1
+29  L   0   0   0   0   10  1
+30  L   0   0   1   12.5 25  1
+-999
+// Column 1,2: Branch (Bus IDa, Bus IDb) (I)
+// Column 3: R (F) resistance [P.U.]
+// Column 4: X (F) reactance [P.U.] (to be used to compute the Y-matrix R + jX)
+// Column 5: Max FLow (F) [P.U.]
+BRANCH DATA FOLLOWS                         4f0 ITEMS
+ 1  2  0.0192    0.0575   130
+ 1  3  0.0452    0.1852   130
+ 2  4  0.0570    0.1737   65
+ 3  4  0.0132    0.0379   130
+ 2  5  0.0472    0.1983   130
+ 2  6  0.0581    0.1763   65
+ 4  6  0.0119    0.0414   90
+ 5  7  0.0460    0.1160   70
+ 6  7  0.0267    0.0820   130
+ 6  8  0.0120    0.0420   32
+ 6  9  0.0       0.2080   65
+ 6 10  0.0       0.5560   32
+ 9 11  0.0       0.2080   65
+ 9 10  0.0       0.1100   65
+ 4 12  0.0       0.2560   65
+12 13  0.0       0.1400   65
+12 14  0.1231    0.2559   32
+12 15  0.0662    0.1304   32
+12 16  0.0945    0.1987   32
+14 15  0.2210    0.1997   16
+16 17  0.0824    0.1923   16
+15 18  0.1070    0.2185   16
+18 19  0.0639    0.1292   16
+19 20  0.0340    0.0680   32
+10 20  0.0936    0.2090   32
+10 17  0.0324    0.0845   32
+10 21  0.0348    0.0749   32
+10 22  0.0727    0.1499   32
+21 22  0.0116    0.0236   32
+15 23  0.1000    0.2020   16
+22 24  0.1150    0.1790   16
+23 24  0.1320    0.2700   16
+24 25  0.1885    0.3292   16
+25 26  0.2544    0.3800   16
+25 27  0.1093    0.2087   16
+28 27  0.0       0.3960   65
+27 29  0.2198    0.4153   16
+27 30  0.3202    0.6027   16
+29 30  0.2399    0.4533   16
+8  28  0.0636    0.2000   32
+6  28  0.0169    0.0599   32
